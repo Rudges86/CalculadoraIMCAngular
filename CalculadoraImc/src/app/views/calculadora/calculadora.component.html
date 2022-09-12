@@ -1,0 +1,19 @@
+<div class="sub-container calculadora">
+    <h2>Calculadora</h2>
+<form>
+    <div>
+        <label for="">Informe a sua altura(cm):</label>
+        <input type="text" placeholder="cm" name="altura" [(ngModel)]="altura" required>
+        
+    </div>
+    <div>
+        <label for="">Informe o seu peso(kg):</label>
+        <input type="text" placeholder="kg" name="peso" [(ngModel)]="peso" required>
+    </div>
+    <button (click)="mensagem()">Calcular</button>
+</form>
+    <div *ngIf="mostra">
+        <p>{{mensa}} </p>
+    </div>
+</div>
+

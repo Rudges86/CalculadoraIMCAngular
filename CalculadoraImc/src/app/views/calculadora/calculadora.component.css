@@ -1,0 +1,27 @@
+.calculadora {
+    background-color: rgba(0,124,138,0.15);
+    box-sizing: border-box;
+    padding: 15px ;
+}
+h2{
+    color:cadetblue
+}
+.calculadora div{
+    margin:5px 0;
+}
+label{
+    display:block;
+}
+
+input[type="text"]{
+    min-width: 75%;    
+}
+
+button{
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    width: 22%;
+    border:none;
+    padding: 3px;
+}
